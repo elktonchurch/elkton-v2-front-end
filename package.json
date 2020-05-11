@@ -2,6 +2,10 @@
     "name": "elkton-v2-front-end",
     "description": "This is v2.0 of the front-end repo for Elkton Missionary Church's official website.",
     "version": "0.1.0",
+    "engines": {
+        "node": "14.x",
+        "npm": "6.x"
+    },
     "repository": "https://github.com/elktonchurch/elkton-v2-front-end",
     "author": "Tico S. Thepsourinthone",
     "contributors": [],
