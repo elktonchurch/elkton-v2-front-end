@@ -8,7 +8,7 @@
     "scripts": {
         "start:dev": "nodemon",
         "build": "next build && tsc --project tsconfig.server.json",
-        "start": "cross-env NODE_ENV=production node dist/index.js",
+        "start": "cross-env NODE_ENV=production node dist/index.js -p $PORT",
         "test": "jest --coverage",
         "lint": "eslint './{src,pages,server}/**/*' --ext .tsx,.ts",
         "pretty": "prettier --write --config .prettierrc.js {src,pages,server}/**/*.{ts,tsx}",
