@@ -30,6 +30,7 @@
         "express": "^4.17.1",
         "http-proxy-middleware": "^0.20.0",
         "isomorphic-unfetch": "^3.0.0",
+        "kind-of": "^6.0.3",
         "mkdirp": "^1.0.4",
         "next": "^9.3.6",
         "next-compose-plugins": "^2.2.0",
