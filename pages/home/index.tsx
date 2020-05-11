@@ -45,39 +45,7 @@ const Home: NextPage<IHomePage.IProps, IHomePage.InitialProps> = ({
 
     return (
         <Container>
-            <Top>
-                <img src="/images/elkton_church_logo.png" alt="EMC Logo" />
-            </Top>
-            <Middle>
-                <MiddleLeft>
-                    <MiddleLeftButtons>
-                        {renderLocaleButtons(i18n.language)}
-                    </MiddleLeftButtons>
-                </MiddleLeft>
-                <MiddleRight>
-                    <TopText>{t("common:Hello")}</TopText>
-                    <Heading text={t("common:World")} />
-                    <Apod>
-                        <ApodButton
-                            onClick={() => {
-                                dispatch(
-                                    HomeActions.GetApod({
-                                        params: { hd: false },
-                                    })
-                                );
-                            }}
-                        >
-                            Discover Space
-                        </ApodButton>
-                        <img
-                            src={home.image.url}
-                            height="300"
-                            width="150"
-                            alt="Discover Space"
-                        />
-                    </Apod>
-                </MiddleRight>
-            </Middle>
+            <img src="/images/elkton_church_logo.png" alt="EMC Logo" />
         </Container>
     );
 };
